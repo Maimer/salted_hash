@@ -1,7 +1,6 @@
 require 'pg'
 require 'digest/sha1'
 require 'securerandom'
-require 'pry'
 
 def db_connection
   begin
@@ -62,11 +61,3 @@ def check_user(id)
   end
   results[0]["username"]
 end
-
-
-
-
-
-
-
-
