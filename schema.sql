@@ -3,4 +3,4 @@ CREATE TABLE users (
   username varchar(15),
   salt varchar(255),
   digest varchar(255)
-)
+);
